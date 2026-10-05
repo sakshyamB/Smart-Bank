@@ -1,0 +1,27 @@
+{
+  "name": "smartbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "sakshyam",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.19.0",
+    "nodemailer": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
